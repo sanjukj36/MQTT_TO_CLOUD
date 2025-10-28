@@ -19,10 +19,10 @@ EVENT_HUB_CONNECTION_STR = os.getenv("EVENT_HUB_CONNECTION_STR")
 EVENT_HUB_NAME = os.getenv("EVENT_HUB_NAME")
 
 # Input folder containing JSON files
-DATA_DIR = "/home/memphis/mqtt_to_cloud/data/Payload"
+DATA_DIR = "/home/memphis/MQTT_TO_CLOUD/data/Payload"
 
 # Output folder for logs
-LOGS_DIR = "/home/memphis/mqtt_to_cloud/logs"
+LOGS_DIR = "/home/memphis/MQTT_TO_CLOUD/logs"
 LAST_SENT_FILE = os.path.join(LOGS_DIR, "last_sent_log.txt")
 
 CHECK_INTERVAL = 5  # seconds
