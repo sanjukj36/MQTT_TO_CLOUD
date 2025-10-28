@@ -1,0 +1,50 @@
+# 🐍 Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🧱 Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# 🔐 Environment and secret files
+.env
+*.env
+.env.*
+secrets.json
+config.json
+
+# 🧠 IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📁 Ignore data & logs
+data/
+logs/
+
+# 🗂 Ignore generated JSON payloads or telemetry
+*.json
+
+# 🚫 Ignore local scripts (not for production)
+mqtt_publisher.py
+
+# 🧰 Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 🧪 Cache / test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# 💾 OS / System files
+.DS_Store
+Thumbs.db
