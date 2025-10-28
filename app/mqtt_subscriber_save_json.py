@@ -9,7 +9,7 @@ PORT = 1883
 TOPIC = "ndc/min_all"
 
 # Output folder
-OUTPUT_DIR = "/home/memphis/MQTT_TO_CLOUD/data/Payload"
+OUTPUT_DIR = "/home/mariapps/MQTT_TO_CLOUD/data/Payload"
 
 # Ensure directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
