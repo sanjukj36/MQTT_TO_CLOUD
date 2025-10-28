@@ -6,7 +6,7 @@ from datetime import datetime
 # MQTT Configuration
 BROKER = "localhost"
 PORT = 1883
-TOPIC = "ndc/min"
+TOPIC = "ndc/min_all"
 
 # Output folder
 OUTPUT_DIR = "/home/memphis/MQTT_TO_CLOUD/data/Payload"
